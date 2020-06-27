@@ -42,7 +42,7 @@
       "title": "General Mobile AŞ. (İstanbul)",
       "date": "Kas 2017 – Ağu 2018",
       "profession": " Android Geliştiricisi",
-      "description": "6 diğer takım arkadaşımız ile stok Android uygulamaları geliştiriyor ve ürettik. Genel olarak Kotlin, Java ve GitLab teknolojilerini kullandık."
+      "description": "6 takım arkadaşımız ile stok Android uygulamaları geliştirdik ve ürettik. Genel olarak Kotlin, Java ve GitLab teknolojilerini kullandık."
     }
   },
   "references": {
@@ -50,7 +50,7 @@
       "title": "Portfolio >> ahmetduruer.com",
       "date": "2020'den beri",
       "things": "Svelte, Heroku, Travis CI",
-      "description": "Kendime ait, kendimi tanıtmak için kurmuş olduğum küçük portfolyo websitem. Hem Türkçe hem İngilizce dillerini destekliyor. Svelte 3, Heroku, Travis CI, Bootstrap 4 ve Routve ile yapıldı."
+      "description": "Kendimi tanıtmak için kurmuş olduğum küçük portfolyo websitem, hem Türkçe hem İngilizce dillerini destekliyor. Svelte 3, Heroku, Travis CI, Bootstrap 4 ve Routve ile yapıldı."
     },
     "routve": {
       "title": "Routve",
