@@ -23,9 +23,6 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
-      fontFamily: {
-        firago: ["FiraGO", ...defaultTheme.fontFamily.sans],
-      },
       fontSize: {
         sm2: "0.9375rem", // 15px label
         base: "1rem", // 16px base
@@ -59,6 +56,7 @@ module.exports = {
         "11": "2.75rem", // 44px (once)
       },
       colors: {
+        bodyBG: "#1e1e1e",
         gray: {
           "150": "hsl(210, 44%, 97%)",
           "250": "hsl(210, 40%, 93.5%)",
