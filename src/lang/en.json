@@ -1,0 +1,83 @@
+{
+  "profession": "Software Developer",
+  "country": "Turkey",
+  "about-me": "A highly focused software developer and entrepreneur from Turkey since 2011. In my daily life I create and work on websites, mobile applications and personal projects. I always develop myself in programming and interested to learn new technologies. Mainly, I am a back-end developer.",
+  "title": {
+    "about-me": "ABOUT ME",
+    "education": "EDUCATION",
+    "experience": "EXPERIENCE",
+    "references": "REFERENCES",
+    "certificates": "CERTIFICATES",
+    "skills": "SKILLS",
+    "other": "OTHER"
+  },
+  "skills": {
+    "middle-level": "Middle Level",
+    "high-level": "High Level"
+  },
+  "education": {
+    "pecs-uni": {
+      "title": "University Of Pécs - Hungary",
+      "time": "2019 – Present",
+      "major": "Computer Science (BSc)"
+    },
+    "preparatory-course": {
+      "title": "International Studies Center - Hungary",
+      "time": "2018 – 2019",
+      "major": "Preparatory Course"
+    },
+    "kocaeli-bahcesehir-highschool": {
+      "title": "Private Kocaeli Bahçeşehir Anatolian High School - Turkey",
+      "time": "Sep 2014 – Jun 2017",
+      "major": "High School Degree"
+    },
+    "edirne-bahcesehir-highschool": {
+      "title": "Private Edirne Bahçeşehir Anatolian High School - Turkey",
+      "time": "Sep 2013 – Jun 2014",
+      "major": "First High School"
+    }
+  },
+  "work-experience": {
+    "general-mobile": {
+      "title": "General Mobile Inc. (Istanbul)",
+      "date": "Nov 2017 – Aug 2018",
+      "profession": " Android Developer",
+      "description": "During the work, we have been building and developing stock Android applications with 6 other team members. We used mainly Kotlin, Java and GitLab."
+    }
+  },
+  "references": {
+    "portfolio": {
+      "title": "Portfolio >> ahmetduruer.com",
+      "date": "Since 2020",
+      "things": "Svelte, Heroku, Travis CI",
+      "description": "My small portfolio website which I have created to introduce myself. It supports both Turkish and English languages. It has built in Svelte 3, Heroku, Travis CI, Bootstrap 4 and Routve."
+    },
+    "routve": {
+      "title": "Routve",
+      "date": "Since 2020",
+      "things": "Svelte",
+      "description": "An advanced Svelte 3 router library which is based on Page.js library, which supports dynamic and static component import."
+    },
+    "pano": {
+      "title": "Pano",
+      "date": "Since 2018",
+      "things": "Svelte, Vue, SASS, Kotlin, MySQL, Vert.x",
+      "description": "An advanced web platform that comfort your Minecraft server's website needs and supports themes, addons and more features. It has built in Kotlin, Svelte 3 and Vue."
+    },
+    "antik-kup": {
+      "title": "Antik Küp",
+      "date": "2015 - 2019",
+      "things": "Kotlin, MySQL, SQLite, Vert.x",
+      "description": "A complete Turkish Minecraft MMORPG community server. We have created an unique game in Minecraft for players."
+    }
+  },
+  "certificates": {
+    "efset": {
+      "title": "EFSET B2 Level English",
+      "description": "Jul 2019 | www.efset.org/cert/CPTFNg"
+    },
+    "mssql-2016": {
+      "description": "Oct 2017 | Istanbul Technical University (ITU)"
+    }
+  }
+}

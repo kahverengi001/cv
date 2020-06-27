@@ -1,3 +1,7 @@
+<script>
+  import { _ } from "svelte-i18n";
+</script>
+
 <main class="hyphens-manual">
 
   <!-- Page -->
@@ -31,13 +35,13 @@
           <h1 class="text-3xl font-semibold text-gray-750">
             Ahmet Enes Duruer
           </h1>
-          <h2 class="text-gray-700">Software Developer</h2>
+          <h2 class="text-gray-700">{$_('profession')}</h2>
         </div>
       </div>
       <div class="float-right text-right text-gray-700">
         <ul class="text-right">
           <li class="flex items-center align-right">
-            <span class="mr-4 flex-1">Sakarya, Turkey, 54600</span>
+            <span class="mr-4 flex-1">Sakarya, {$_('country')}, 54600</span>
             <svg
               class="h-4 w-4 pb-px stroke-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -130,16 +134,12 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            ABOUT ME
+            {$_('title.about-me')}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              A highly focused software developer and entrepreneur from Turkey
-              since 2011. In my daily life I create and work on websites, mobile
-              applications and personal projects. I always develop myself in
-              programming and interested to learn new technologies. Mainly, I am
-              a back-end developer.
+              {$_('about-me')}
             </p>
           </section>
 
@@ -153,16 +153,16 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            EDUCATION
+            {$_('title.education')}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                University Of Pécs - Hungary
+                {$_('education.pecs-uni.title')}
               </h3>
               <p class="leading-normal text-md text-gray-600">
-                2019 – Present | Computer Science (BSc)
+                {$_('education.pecs-uni.time')} | {$_('education.pecs-uni.major')}
               </p>
             </header>
           </section>
@@ -172,10 +172,10 @@
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              International Studies Center - Hungary
+              {$_('education.preparatory-course.title')}
             </h3>
             <p class="leading-normal text-md text-gray-600">
-              2018 – 2019 | Preparatory Course
+              {$_('education.preparatory-course.time')} | {$_('education.preparatory-course.major')}
             </p>
           </header>
         </section>
@@ -183,10 +183,10 @@
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              Private Kocaeli Bahçeşehir Anatolian High School - Turkey
+              {$_('education.kocaeli-bahcesehir-highschool.title')}
             </h3>
             <p class="leading-normal text-md text-gray-600">
-              Sep 2014 – Jun 2017 | High School Degree
+              {$_('education.kocaeli-bahcesehir-highschool.time')} | {$_('education.kocaeli-bahcesehir-highschool.major')}
             </p>
           </header>
         </section>
@@ -194,10 +194,10 @@
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              Private Edirne Bahçeşehir Anatolian High School- Turkey
+              {$_('education.edirne-bahcesehir-highschool.title')}
             </h3>
             <p class="leading-normal text-md text-gray-600">
-              Sep 2013 – Jun 2014 | First High School
+              {$_('education.edirne-bahcesehir-highschool.time')} | {$_('education.edirne-bahcesehir-highschool.major')}
             </p>
           </header>
         </section>
@@ -211,22 +211,20 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            EXPERIENCE
+            {$_('title.experience')}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                General Mobile Inc. (Istanbul)
+                {$_('work-experience.general-mobile.title')}
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                Nov 2017 – Aug 2018 | Android Developer
+                {$_('work-experience.general-mobile.date')} | {$_('work-experience.general-mobile.profession')}
               </p>
             </header>
             <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              During the work, we have been building and developing stock
-              Android applications with 6 other team members. We used mainly
-              Kotlin, Java and GitLab.
+              {$_('work-experience.general-mobile.description')}
             </p>
           </section>
 
@@ -240,69 +238,63 @@
         <!-- To keep in the same column -->
         <div class="break-inside-avoid">
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            REFERENCES
+            {$_('title.references')}
           </h2>
         </div>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              Portfolio >> ahmetduruer.com
+              {$_("references.portfolio.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              Since 2020 | Svelte, Heroku, Travis CI
+              {$_("references.portfolio.date")} | {$_("references.portfolio.things")}
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            My small portfolio website which I have created to introduce myself.
-            It supports both Turkish and English languages. It has built in
-            Svelte 3, Heroku, Travis CI, Bootstrap 4 and Routve.
+            {$_("references.portfolio.description")}
           </p>
         </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              Routve
+              {$_("references.routve.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              Since 2020 | Svelte
+              {$_("references.routve.date")} | {$_("references.routve.things")}
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            An advanced Svelte 3 router library which is based on Page.js
-            library, which supports dynamic and static component import.
+            {$_("references.routve.description")}
           </p>
         </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              Pano
+              {$_("references.pano.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              Since 2018 | Svelte, Vue, SASS, Kotlin, MySQL, Vert.x
+              {$_("references.pano.date")} | {$_("references.pano.things")}
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            An advanced web platform that comfort your Minecraft server's
-            website needs and supports themes, addons and more features. It has
-            built in Kotlin, Svelte 3 and Vue.
+            {$_("references.pano.description")}
           </p>
         </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              Antik Küp
+              {$_("references.antik-kup.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              2015-2019 | Kotlin, MySQL, Vert.x
+              {$_("references.antik-kup.date")} | {$_("references.antik-kup.things")}
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            A complete Turkish Minecraft MMORPG community server. We have
-            created an unique game in Minecraft for players.
+            {$_("references.antik-kup.description")}
           </p>
         </section>
 
@@ -316,16 +308,16 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            CERTIFICATES
+            {$_('title.certificates')}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                EFSET B2 Level English
+                {$_("certificates.efset.title")}
               </h3>
               <p class="leading-normal text-md text-gray-600">
-                Jul 2019 | www.efset.org/cert/CPTFNg
+                {$_("certificates.efset.description")}
               </p>
             </header>
           </section>
@@ -340,7 +332,7 @@
             MSSQL 2016
           </h3>
           <p class="leading-normal text-md text-gray-600">
-            Oct 2017 | Istanbul Technical University (ITU)
+            {$_("certificates.mssql-2016.description")}
           </p>
         </header>
       </section>
@@ -353,7 +345,7 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            SKILLS
+            {$_('title.skills')}
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
@@ -361,7 +353,9 @@
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 Kotlin
               </h3>
-              <p class="leading-normal text-md text-gray-650">High Level</p>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('skills.high-level')}
+              </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -412,7 +406,9 @@
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 Javascript
               </h3>
-              <p class="leading-normal text-md text-gray-650">Middle Level</p>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('skills.middle-level')}
+              </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -445,7 +441,9 @@
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 Database
               </h3>
-              <p class="leading-normal text-md text-gray-650">Middle Level</p>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('skills.middle-level')}
+              </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -490,7 +488,9 @@
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 Linux
               </h3>
-              <p class="leading-normal text-md text-gray-650">Middle Level</p>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('skills.middle-level')}
+              </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
               <ul
@@ -530,7 +530,7 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            OTHER
+            {$_('title.other')}
           </h2>
 
         </div>
@@ -592,6 +592,16 @@
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
                 CI / CD
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Back-End
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Front-End
               </li>
             </ul>
           </div>

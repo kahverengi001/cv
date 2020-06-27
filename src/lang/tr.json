@@ -1,0 +1,83 @@
+{
+  "profession": "Yazılım Geliştiricisi",
+  "country": "Türkiye",
+  "about-me": "Sakarya'dan 2011 yılından beri bir yazılım geliştiricisi ve girişimci. Günlük hayatımda websiteler, mobil uygulamalar ve kişisel projeler üzerinde çalışıyorum. Kendimi her zaman programlama konusunda geliştiriyorum ve yeni teknojiler öğrenmekle ilgileniyorum. Genel olarak, bir Back-End geliştiricisiyim.",
+  "title": {
+    "about-me": "HAKKIMDA",
+    "education": "EĞİTİM",
+    "experience": "DENEYİM",
+    "references": "REFERANSLR",
+    "certificates": "SERTİFİKALAR",
+    "skills": "YETENEKLER",
+    "other": "DİĞER"
+  },
+  "skills": {
+    "middle-level": "Orta Seviye",
+    "high-level": "Yüksek Seviye"
+  },
+  "education": {
+    "pecs-uni": {
+      "title": "Pécs Üniversitesi - Macaristan",
+      "time": "2019 – Hala",
+      "major": "Bilgisayar Bilimleri"
+    },
+    "preparatory-course": {
+      "title": "International Studies Center - Macaristan",
+      "time": "2018 – 2019",
+      "major": "Hazırlık Kursu"
+    },
+    "kocaeli-bahcesehir-highschool": {
+      "title": "Özel Kocaeli Bahçeşehir Anadolu Lisesi",
+      "time": "Eyl 2014 – Haz 2017",
+      "major": "Lise Diploması"
+    },
+    "edirne-bahcesehir-highschool": {
+      "title": "Özel Edirne Bahçeşehir Anadolu Lisesi",
+      "time": "Eyl 2013 – Haz 2014",
+      "major": "İlk Lise"
+    }
+  },
+  "work-experience": {
+    "general-mobile": {
+      "title": "General Mobile AŞ. (İstanbul)",
+      "date": "Kas 2017 – Ağu 2018",
+      "profession": " Android Geliştiricisi",
+      "description": "6 diğer takım arkadaşımız ile stok Android uygulamaları geliştiriyor ve ürettik. Genel olarak Kotlin, Java ve GitLab teknolojilerini kullandık."
+    }
+  },
+  "references": {
+    "portfolio": {
+      "title": "Portfolio >> ahmetduruer.com",
+      "date": "2020'den beri",
+      "things": "Svelte, Heroku, Travis CI",
+      "description": "Kendime ait, kendimi tanıtmak için kurmuş olduğum küçük portfolyo websitem. Hem Türkçe hem İngilizce dillerini destekliyor. Svelte 3, Heroku, Travis CI, Bootstrap 4 ve Routve ile yapıldı."
+    },
+    "routve": {
+      "title": "Routve",
+      "date": "2020'den beri",
+      "things": "Svelte",
+      "description": "Gelişmiş, Page.JS üzerine kurulmuş, dinamik import ve component import destekleyen bir Svelte 3 router kütüphanesi."
+    },
+    "pano": {
+      "title": "Pano",
+      "date": "2018'den beri",
+      "things": "Svelte, Vue, SASS, Kotlin, MySQL, Vert.x",
+      "description": "Minecraft sunucuların website ihtiyaçlarını karşılayan, tema, eklentiler ve daha bir çok özelliği destekleyen gelişmiş bir web platform."
+    },
+    "antik-kup": {
+      "title": "Antik Küp",
+      "date": "2015 - 2019",
+      "things": "Kotlin, MySQL, SQLite, Vert.x",
+      "description": "Tamamen Türkçe gelişmiş bir Minecraft MMORPG topluluk sunucusu. Oyuncular için Minecraft'ta benzersiz bir oyun tadı yarattık."
+    }
+  },
+  "certificates": {
+    "efset": {
+      "title": "EFSET B2 Seviye İngilizce",
+      "description": "Tem 2019 | www.efset.org/cert/CPTFNg"
+    },
+    "mssql-2016": {
+      "description": "Ekim 2017 | İstanbul Teknik Üniversitesi (İTÜ)"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 export default {
   routes: {
-    "/en": {
-      component: () => import("./pages/EN.svelte"),
+    "/tr": {
+      component: () => import("./pages/TR.svelte"),
     },
     "*": {
-      component: () => import("./pages/TR.svelte")
+      component: () => import("./pages/EN.svelte")
     }
   },
 };
