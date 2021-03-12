@@ -601,7 +601,7 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                Javascript Developer
+                JavaScript Developer
               </li>
             </ul>
           </div>
