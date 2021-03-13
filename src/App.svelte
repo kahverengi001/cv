@@ -23,4 +23,4 @@
   });
 </script>
 
-<Router routerConfig="{RouterConfig}" />
+<Router config="{RouterConfig}" />
